@@ -8,7 +8,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Setup environment
         uses: ./.github/actions/setup-environment
 
@@ -40,7 +40,7 @@ jobs:
         archipelago_version: [ "${{ needs.get_archipelago_versions.outputs.stable }}",
                                "${{ needs.get_archipelago_versions.outputs.prerelease }}" ]
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Setup environment
         uses: ./.github/actions/setup-environment
       - name: Run tests
