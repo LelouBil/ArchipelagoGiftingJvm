@@ -12,7 +12,7 @@ kotest = ["kotest-assertions-core", "kotest-runner", "kotest-testcontainers"]
 kotest-runner = { group = "io.kotest", name = "kotest-runner-junit5", version.ref = "kotest" }
 kotest-assertions-core = { group = "io.kotest", name = "kotest-assertions-core", version.ref = "kotest" }
 kotest-testcontainers = { group = "io.kotest.extensions", name = "kotest-extensions-testcontainers", version = "2.0.2" }
-mockk = { group = "io.mockk", name = "mockk", version = "1.14.4" }
+mockk = { group = "io.mockk", name = "mockk", version = "1.14.6" }
 turbine = { group = "app.cash.turbine", name = "turbine", version = "1.2.1" }
 archipelagoJavaClient = { group = "io.github.archipelagomw", name = "Java-Client", version = "0.1.20" }
 gson = { group = "com.google.code.gson", name = "gson", version = "2.13.1" }
